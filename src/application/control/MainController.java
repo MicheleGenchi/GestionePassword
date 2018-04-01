@@ -1,5 +1,8 @@
-package control;
+package application.control;
 
+import application.model.DAOFactory;
+import application.model.MysqlDAO;
+import application.model.Password;
 import javafx.application.Application;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -7,9 +10,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import model.DAOFactory;
-import model.MysqlDAO;
-import model.Password;
 
 public class MainController extends Application {
 	@FXML BorderPane root;

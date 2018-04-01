@@ -1,8 +1,10 @@
-package control;
+package application.control;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import application.model.Password;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
@@ -11,7 +13,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
-import model.Password;
 
 public class PasswordTableControl<E> extends TableView<E>  {
 	private static MainController main;

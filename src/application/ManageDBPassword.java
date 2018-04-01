@@ -1,5 +1,5 @@
-package model;
-import control.MainController;
+package application;
+import application.control.MainController;
 import javafx.application.Application;
 
 //creare su Mysql 
@@ -14,6 +14,6 @@ import javafx.application.Application;
 public class ManageDBPassword {
 
 	public static void main(String...args) {
-		Application.launch(MainController.class);
+		Application.launch(MainController.class,args);
 	}
 }
