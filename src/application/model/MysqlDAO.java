@@ -13,7 +13,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class MysqlDAO<T> implements DAO {
-	private String sql = "SELECT * FROM password.tablepassword";
+	private String sql = "SELECT * FROM password";
 	private List<Password> data = new ArrayList<>();
 	private Set<String> dataTipo = new TreeSet<>();
 

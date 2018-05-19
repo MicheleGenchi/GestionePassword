@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class DBConnector {
 	// jdbc:mysql://localhost:3306/Peoples?autoReconnect=true&useSSL=false;
 	private final static String url = "jdbc:mysql://localhost:3306/";
-	private final static String database = "Password?autoReconnect=true&useSSL=false";
+	private final static String database = "password?autoReconnect=true&useSSL=false";
 	private final static String userName = "root";
 	private final static String password = "mysql123";
 

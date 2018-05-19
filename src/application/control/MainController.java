@@ -20,7 +20,7 @@ public class MainController extends Application {
 	public void start(Stage primaryStage) throws Exception {
 
 		MysqlDAO<?> dao=(MysqlDAO<?>) DAOFactory.get("mysql");
-		dao.setSql("SELECT * FROM tablepassword");
+		dao.setSql("SELECT * FROM password");
 		ObservableList<String> dataTipo=dao.getDataTipo();
 		cmbTipo=new ComboBox<String>(dataTipo);
 		
